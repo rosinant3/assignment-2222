@@ -1,0 +1,50 @@
+.image-preview {
+
+    height: 100px;
+    width: 100%;
+    border: 1px solid lightgrey;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+img {
+
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    object-position: center; 
+}
+
+.image-preview img {
+
+    object-fit: cover;
+}
+
+.image-large img {
+
+    object-fit: contain;
+}
+
+.image-large {
+
+    position: relative;
+    height: 350px;
+    border: 1px solid lightgrey;
+}
+
+.zoom-container {
+
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    z-index: 100;
+}
+
+.center-container {
+
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.text-field-container {
+
+    width: 78px;
+    margin-right: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.unit-box {
+
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 0.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+.add-to-cart {
+
+    display: flex;
+    margin-right: 1rem;
+}

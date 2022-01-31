@@ -1,0 +1,70 @@
+.card {
+
+    width: 60%;
+    height: 100%;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title {
+
+   font-size: 0.9rem;
+   font-weight: bolder;
+   width: 70%;
+   cursor: default;
+   color: black;
+   margin-bottom: 0.5rem;
+}
+
+.card-link {
+
+    font-size: 0.7rem;
+    color: grey;
+    cursor: default;
+    margin-bottom: 1rem;
+}
+
+.card-link a {
+ 
+    text-decoration: none;
+    color: rgb(145, 184, 197);
+    font-weight: bold;
+}
+
+.card-price {
+
+    font-size: 0.8rem;
+    cursor: default
+}
+
+div.card-price div:last-child {
+    margin-top: 0.25rem;
+}
+
+.price-flex {
+
+    display: flex;
+    align-items: center;
+}
+
+.grey-text {
+
+    color: grey;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-left: 0.5rem;
+}
+
+.stars-container {
+
+    margin-bottom: 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .card {
+        width: 100%;
+    }
+}

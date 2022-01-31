@@ -1,0 +1,30 @@
+
+body {
+
+    font-family: sans-serif;
+}
+
+:root {
+
+    --main-color: #E45044;
+    --main-color-hover: #a6170c;
+    --grey-background: #EFEFEF;
+    --star-color: #F59C1A;
+    
+    
+}
+
+.st0{
+
+    fill-rule:evenodd;
+    clip-rule:evenodd;
+}
+
+.center-container {
+
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}

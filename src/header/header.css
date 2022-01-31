@@ -1,0 +1,100 @@
+.page-header { 
+
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(237, 232, 232);
+    font-size: 1rem;
+    color: var(--main-color);
+    cursor: default;
+    font-weight: bold;
+    position: sticky;
+    top: 0px;
+    z-index: 500;
+    background-color: white;
+    transition: all 250ms ease-in-out;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.input-container {
+
+    margin-right: 1.5rem;
+}
+
+.cart-border {
+
+    border-left: 1px solid lightgrey;
+    margin-left: 0.5rem;
+    padding: 0.75rem 0.5rem 0.75rem 0.5rem;
+    position: relative;
+}
+
+.icon-container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-title {
+
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.cart-items {
+
+    position: absolute;
+    top: 0.30rem;
+    right: 0.85rem;
+    background-color: var(--main-color);
+    color: white;
+    font-size: 0.5rem;
+    padding-right: 0.30rem;
+    padding-left: 0.30rem;
+    padding-top: 0.15rem;
+    padding-bottom: 0.15rem;
+    border-radius: 50%;
+    border: 1px white solid;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes jumpingBall {
+    0%   {transform: translateY(-5px);}
+    20%  {transform: translateY(-0px);}
+    40%  {transform: translateY(-5px);}
+    60%  {transform: translateY(-0px);}
+    80%  {transform: translateY(-5px);}
+    100%  {transform: translateY(0px);}
+  }
+
+@media only screen and (max-width: 870px) {
+    .page-header {
+
+        flex-direction: column;
+    }
+
+    .page-title {
+
+        justify-content: center;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .cart-border {
+
+        border-left: none;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    
+    .input-and-icon {
+
+        flex-direction: column;
+    }
+  }

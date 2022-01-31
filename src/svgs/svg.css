@@ -1,0 +1,42 @@
+.svg-margin-right {
+    
+    margin-right: 0.5rem;
+}
+
+.svg-super-small {
+
+    height: 15px;
+    width: 15px;
+    color: lightgrey;
+}
+
+.svg-margin-left {
+
+    margin-left: 0.5rem;
+}
+
+.svg-size {
+
+    height: 20px;
+    width: 20px;
+    color: lightgrey;
+}
+
+.svg-pointer {
+    
+    cursor: pointer;
+}
+
+.svg-size-medium {
+
+    height: 40px;
+    width: 40px;
+    color: lightgrey;
+}
+
+.svg-size-large {
+
+    height: 60px;
+    width: 60px;
+    color: lightgrey;
+}
