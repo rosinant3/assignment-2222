@@ -36,7 +36,7 @@ const BodyCard = ({ article }) => {
                         <CurrencyFormat value={article.price.toFixed(2).replace('.', ',')} displayType={'text'} thousandSeparator={'.'} decimalSeparator={','} />
                         {currency}
                     </strong>
-                    <span className="grey-text">+<CurrencyFormat value={article.transport_costs.toFixed(2).replace('.', ',')} displayType={'text'} thousandSeparator={'.'} decimalSeparator={','} />{currency} shipping</span>
+                    <span className="grey-text grey-text-m-l">+<CurrencyFormat value={article.transport_costs.toFixed(2).replace('.', ',')} displayType={'text'} thousandSeparator={'.'} decimalSeparator={','} />{currency} shipping</span>
                 <DiscountSVG />
                 </div>
                 <div>
