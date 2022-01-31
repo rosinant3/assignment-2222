@@ -4,7 +4,7 @@ app = express();
 
 app.set('port', (process.env.PORT || 5000));
 
-app.use(express.static('build'));
+app.use(express.static('dist'));
 
 app.get('/mobile', function (req, res) {
 res.send('see this site on a computer plz')
