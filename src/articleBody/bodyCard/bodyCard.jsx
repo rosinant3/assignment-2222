@@ -4,7 +4,7 @@ import CurrencyFormat from 'react-currency-format';
 import { generateStarsArray } from './bodyCardUtility';
 import StarFilledSVG from '../../svgs/starFilledSVG';
 import StarSVG from '../../svgs/starSVG';
-import DiscountSVG from '../../svgs/DiscountSVG';
+import DiscountSVG from '../../svgs/discountSVG';
 import {  PageContext } from '../../dataStore';
 import AddToCart from '../../addToCart/addToCart';
 
